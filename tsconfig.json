@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "rootDir": "src",
+
+        "lib": ["dom", "es2019"],
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react"
+    },
+    "extends": "../tsconfig-common.json",
+    "include": ["src"]
+}

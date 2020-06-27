@@ -1,0 +1,26 @@
+{
+    "name": "airtable-block",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@airtable/blocks": "0.0.52",
+        "causal-common": "1.0.4",
+        "causal-ui": "1.0.4",
+        "fast-sort": "^2.2.0",
+        "immutable": "^4.0.0-rc.12",
+        "jstat": "^1.9.3",
+        "query-string": "^6.13.1",
+        "react": "16.12.0",
+        "react-dom": "16.12.0",
+        "react-redux": "^7.2.0",
+        "redux": "^4.0.5",
+        "sass": "^1.26.8"
+    },
+    "devDependencies": {
+        "typescript": "3.8.3"
+    },
+    "scripts": {
+        "start": "block run",
+        "gen_lock": "npm install --package-lock"
+    }
+}
